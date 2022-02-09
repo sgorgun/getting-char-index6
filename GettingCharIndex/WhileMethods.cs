@@ -4,19 +4,19 @@ namespace GettingCharIndex
 {
     public static class WhileMethods
     {
-        public static int GetIndexOfChar(string str, char value)
+        public static int GetIndexOfChar(string? str, char value)
         {
             // TODO #3. Analyze the implementation of "GetLastIndexOfChar(string, char)" method to see how "while" loop works, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
         }
 
-        public static int GetIndexOfChar(string str, char value, int startIndex, int count)
+        public static int GetIndexOfChar(string? str, char value, int startIndex, int count)
         {
             // TODO #4. Analyze the implementation of "GetLastIndexOfChar(string, char, int, int)" method to see how "while" loop works, and implement the method using the "while" loop statement.
             throw new NotImplementedException();
         }
 
-        public static int GetLastIndexOfChar(string str, char value)
+        public static int GetLastIndexOfChar(string? str, char value)
         {
             if (str is null)
             {
@@ -38,7 +38,7 @@ namespace GettingCharIndex
             return -1;
         }
 
-        public static int GetLastIndexOfChar(string str, char value, int startIndex, int count)
+        public static int GetLastIndexOfChar(string? str, char value, int startIndex, int count)
         {
             if (str is null)
             {
